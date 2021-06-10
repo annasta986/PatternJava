@@ -5,7 +5,7 @@ public class Pattern {
     public boolean patternLength(int length) {
 
         if (length > 9 || length < 1) {
-            System.out.println("Wrong number");
+            System.out.println("Wrong number!!!");
             return false;
         }
         return true;
