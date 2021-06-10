@@ -1,15 +1,16 @@
 public class Pattern {
     int column = 0;
     int number = 0;
-
+//length of wanted tree can be from between 1 and 9, only integers accepted
     public boolean patternLength(int length) {
+
         if (length > 9 || length < 1) {
             System.out.println("Wrong number");
             return false;
         }
         return true;
     }
-
+    //method that return pattern
     public void returnPattern(int length) {
         if (patternLength(length)) {
             for (int i = 0; i <= length; i++) {
