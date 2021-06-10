@@ -1,7 +1,7 @@
 public class Pattern {
     int column = 0;
     int number = 0;
-//length of wanted tree can be from between 1 and 9, only integers accepted
+//length of wanted tree can be between 1 to 9, only integers accepted
     public boolean patternLength(int length) {
 
         if (length > 9 || length < 1) {
